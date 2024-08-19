@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -20,6 +19,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.whatsap__iconos i {
+    margin-left: 10px;
 }
 
 .whatsap__menuopciones {
@@ -46,7 +49,6 @@ body {
     overflow-y: auto;
 }
 
-
 .whatsap__seccion {
     display: none;
     opacity: 0;
@@ -62,7 +64,6 @@ body {
     display: block;
     opacity: 1;
 }
-
 
 .whatsap__chat {
     display: flex;
@@ -123,6 +124,7 @@ body {
     margin-right: 10px;
     border: 2px solid #128C7E; 
 }
+
 .whatsap__llamada {
     display: flex;
     padding: 10px;
