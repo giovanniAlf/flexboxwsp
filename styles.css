@@ -12,6 +12,29 @@ body {
     border: 1px solid #DDD;
 }
 
+.underline {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 33.33%; 
+    height: 3px;
+    background-color: #128C7E;
+    transition: left 0.5s ease;
+}
+
+
+.tabs input:nth-child(1):checked~.buttons .underline {
+  left: 0;
+}
+
+.tabs input:nth-child(2):checked~.buttons .underline {
+  left: 33.333%;
+}
+
+.tabs input:nth-child(3):checked~.buttons .underline {
+  left: 66.66%;
+}
+
 .whatsap__encabezado {
     background-color: #075E54;
     color: white;
@@ -69,6 +92,25 @@ body {
     display: flex;
     padding: 10px;
     border-bottom: 1px solid #DDD;
+}
+.whatsap__chat:hover{
+
+    background-color: beige;
+
+
+}
+.whatsap__llamada:hover{
+
+    background-color: beige;
+
+
+}
+.whatsap__estado:hover{
+
+
+    background-color: beige;
+
+
 }
 
 .whatsap__fotoperfil {
